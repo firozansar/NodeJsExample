@@ -40,7 +40,7 @@ function show(response, postData) {
 	fs.readFile("/tmp/test.png", "binary", function(error, file) {
 	if(error) {
 		response.writeHead(500, {"Content-Type": "text/plain"});
-		response.write(err + "\n");
+		response.write(error + "\n");
 		response.end();
 	} else {
 		response.writeHead(200, {"Content-Type": "image/png"});

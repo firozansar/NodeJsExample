@@ -8,4 +8,9 @@
   },
   "author": "Firoz",
   "license": "ISC"
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/firozansar/NodeJsExample.git"
+  }
+
 }

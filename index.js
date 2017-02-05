@@ -1,3 +1,5 @@
+//This file is the entry point to the app. Type 'node index' in the terminal to start the app
+
 var server = require("./server");
 var router = require("./router");
 var requestHandlers = require("./requestHandlers");

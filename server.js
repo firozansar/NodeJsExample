@@ -1,3 +1,5 @@
+//We want to serve web pages, therefore we need an HTTP server
+
 var http = require("http");
 var url = require("url");
 

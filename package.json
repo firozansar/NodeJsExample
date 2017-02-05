@@ -1,16 +1,19 @@
 {
-  "name": "example",
+  "name": "NodeJsExample",
   "version": "1.0.0",
-  "description": "node test",
+  "description": "A simple image uploader in NodeJS",
+  "engines": {
+    "node": "7.4.0"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Firoz",
-  "license": "ISC"
+  "author": "Firoz Ansari",
+  "license": "MIT"
   "repository": {
-  "type": "git",
-  "url": "git://github.com/firozansar/NodeJsExample.git"
+  	"type": "git",
+  	"url": "https://github.com/firozansar/NodeJsExample"
   }
 
 }

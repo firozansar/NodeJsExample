@@ -1,4 +1,5 @@
-//This file is the entry point to the app. Type 'node index' in the terminal to start the app
+//This file is the entry point to the app. Type 'node index' in the terminal to start the app.
+// localhost:8888 
 
 var server = require("./server");
 var router = require("./router");
@@ -11,5 +12,3 @@ handle["/upload"] = requestHandlers.upload;
 handle["/show"] = requestHandlers.show;
 
 server.start(router.route, handle);
-
-
